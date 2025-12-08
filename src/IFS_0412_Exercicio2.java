@@ -14,10 +14,10 @@ public class IFS_0412_Exercicio2 {
         int[] V = new int[5];
         int[] M = new int[5];
         int menor = 21;
-        // Gerando 5 números aleatórios e encontrar o menor
+        // Gerando 5 números aleatórios e encontrando o menor
         for (int i = 0; i < V.length; i++) {
             int numero = random.nextInt(20 + 1);
-            V[i] = numero; // Números entre 0 e 20
+            V[i] = numero;
             if (V[i] < menor) {
                 menor = V[i];
             }
