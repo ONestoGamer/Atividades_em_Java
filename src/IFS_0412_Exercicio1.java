@@ -32,9 +32,10 @@ public class IFS_0412_Exercicio1 {
 
             int soma = menor + maior;
 
+            System.out.println("Total de números gerados: " + total);
             System.out.println("Maior número gerado: " + maior);
             System.out.println("Menor número gerado: " + menor);
-            System.out.println("Total de números gerados: " + total);
+            System.out.println("Soma do maior com o menor: " + soma);
             System.out.println("Percentual de números menores que 5: " + percentMenor5 + "%");
         }
     }
