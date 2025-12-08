@@ -28,12 +28,13 @@ public class IFS_0412_Exercicio2 {
         }
         // Exibindo os vetores e o menor número
         System.out.print("V: ");
-        for (int num : V) {
-            System.out.print(" " + num);
+        for (int i = 0; i < V.length; i++) {
+            System.out.print(" " + V[i]);
         }
         System.out.println("\nMenor Número: " + menor);
         System.out.print("M: ");
-        for (int num : M) {
+        for (int i = 0; i < M.length; i++) {
+            int num = M[i];
             System.out.print(" " + num);
         }
     }
