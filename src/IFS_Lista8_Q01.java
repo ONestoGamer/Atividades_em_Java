@@ -27,7 +27,7 @@ public class IFS_Lista8_Q01 {
                 I[countI++] = idade;
             }
         }
-        // Calcular média das idades pares
+        // Calculando a média das idades pares
         double mediaP = 0;
         for (int i = 0; i < countP; i++) {
             mediaP += P[i];
@@ -41,7 +41,7 @@ public class IFS_Lista8_Q01 {
         }
         mediaI /= countI;
 
-        // Adicionar idades maiores que a média dos pares
+        // Adicionando as idades maiores que a média dos pares
         int[] IDMAIMEDP = new int[countP];
         int countIDMAIMEDP = 0;
         for (int i = 0; i < countP; i++) {
@@ -49,7 +49,7 @@ public class IFS_Lista8_Q01 {
                 IDMAIMEDP[countIDMAIMEDP++] = P[i];
             }
         }
-        // Adicionar idades menores que a média dos ímpares
+        // Adicionando as idades menores que a média dos ímpares
         int[] IDMENMENI = new int[countI];
         int countIDMENMENI = 0;
         for (int i = 0; i < countI; i++) {
@@ -58,7 +58,7 @@ public class IFS_Lista8_Q01 {
             }
         }
 
-        // Exibir resultados
+        // Exibindo os resultados
         System.out.println("Idades Pares: ");
         for (int i = 0; i < countP; i++) {
             System.out.print(P[i] + " ");

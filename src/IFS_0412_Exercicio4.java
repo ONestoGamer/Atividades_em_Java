@@ -12,7 +12,7 @@ import java.text.DecimalFormat;
 
 public class IFS_0412_Exercicio4 {
     public static void main(String[] args) {
-        double[] vNotas = {7.3, 7.5, 8.5, 7.8, 9.0, 9.7, 9.5};
+        double[] vNotas = {9.0, 7.5, 9.5, 8.5, 9.0, 9.7, 9.5};
         double[] vNotasValidas = new double[5];
 
         double maiorNota = -1;
